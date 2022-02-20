@@ -1,0 +1,7 @@
+#!/bin/sh
+
+exec 2>&1
+
+echo "About ro run the Hello world sample"
+
+exec {{pkg.name}}
